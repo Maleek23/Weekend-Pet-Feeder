@@ -44,17 +44,16 @@ December 5, 2023**
 This document introduces an embedded systems project featuring an automated weekend pet feeder. The system integrates advanced functionalities, including water level sensing, scheduled food/water dispensing, user configuration, and low resource alerts, providing a reliable solution for pet owners during weekends.
 
 ## 2. Hardware Architecture
-![72324139545__E4FAD69D-5048-4A37-8148-4B8B940AA8EB](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/363c2370-9c3b-45cb-b93f-9a9d48dec0ef)
+![72324139![Uploading Screenshot 2023-12-20 at 5.20.29 PM.png…]()
+545__E4FAD69D-5048-4A37-8148-4B8B940AA8EB](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/363c2370-9c3b-45cb-b93f-9a9d48dec0ef)
 
 The hardware combines commercial off-the-shelf components with 3D printed parts, such as a water bottle, food container, pet dish, delivery tube, auger, base, capacitive sensor, motors, MOSFETs, microcontroller, and peripherals (e.g., PIR, transducer, EEPROM). Safety measures, including food-safe containers and sealed prints, are implemented, ensuring precise control of food and water resources.
 
 ## 3. Software Capabilities
-![IMG_3412 (1)](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/98878e03-93db-430d-b9af-60153d81bdf0)
+
 The software demonstrates sophisticated features, including:
 - **Water Level Detection:** Utilizes a capacitive sensor circuit interfaced to an analog comparator and timer modules for real-time water volume measurement.
-
-
- ![8a1c7f](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/aad82d98-a5d5-4e2e-b231-ad9eca5d8e96)
+<img width="379" alt="Screenshot 2023-12-20 at 5 21 25 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/f095dffd-3cc1-47a0-9e2a-ec2c835660bc">
 - **Scheduled Feeding:** The TM4C123 MCU allows pre-programming and storing feed amounts and times in EEPROM to dispense food per a defined schedule.
 - **User Interface:** A UART peripheral enables user configuration via commands for setting the current time, programming feeds, calibrating water volume, toggling motion-activated refills, and low resource alerts.
 - **Input Validation:** Ensures user-supplied data is parsed into fields for validity before execution.
