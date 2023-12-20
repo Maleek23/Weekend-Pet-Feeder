@@ -25,17 +25,16 @@ December 5, 2023**
    - 5.11 [EEPROM Functions](#511-eeprom-functions)
    - 5.12 [System Initialization](#512-system-initialization)
    - 5.13 [Fill Mode, Alert, and Schedule Commands](#513-fill-mode-alert-and-schedule-commands)
-6. [Observations](#6-observations)
-7. [Design and Implementation](#7-design-and-implementation)
-   - 7.1 [Feeder Structure and Components](#71-feeder-structure-and-components)
-   - 7.2 [Water Delivery System](#72-water-delivery-system)
-   - 7.3 [Food Dispensing Mechanism](#73-food-dispensing-mechanism)
-   - 7.4 [Electronics Integration](#74-electronics-integration)
-   - 7.5 [Safety Considerations](#75-safety-considerations)
-   - 7.6 [User Interface and Control](#76-user-interface-and-control)
-   - 7.7 [Power Management](#77-power-management)
-   - 7.8 [Conclusion on Design](#78-conclusion-on-design)
-8. [Conclusion](#9-conclusion)
+6. [Design and Implementation](#7-design-and-implementation)
+   - 6.1 [Feeder Structure and Components](#71-feeder-structure-and-components)
+   - 6.2 [Water Delivery System](#72-water-delivery-system)
+   - 6.3 [Food Dispensing Mechanism](#73-food-dispensing-mechanism)
+   - 6.4 [Electronics Integration](#74-electronics-integration)
+   - 6.5 [Safety Considerations](#75-safety-considerations)
+   - 6.6 [User Interface and Control](#76-user-interface-and-control)
+   - 6.7 [Power Management](#77-power-management)
+   - 6.8 [Conclusion on Design](#78-conclusion-on-design)
+7. [Conclusion](#9-conclusion)
 
 ## 1. Introduction
 
@@ -161,45 +160,43 @@ These functions handle specific user commands:
 - **Alert Command:** Triggers low resource alerts, notifying the user visually and audibly when water levels are low.
 - **Schedule Commands:** Enables the user to set and review feeding schedules. The schedules are stored in EEPROM for persistent use.
 
-## 6. Observations
 
-This section provides insights into the operation and performance of the embedded pet feeder system. It may include observations related to user interactions, system responsiveness, and any unexpected behaviors encountered during testing and usage.
 
-## 7. Design and Implementation
+## 6. Design and Implementation
 
-### 7.1 Feeder Structure and Components
+### 6.1 Feeder Structure and Components
 
 The design incorporates 3D-printed components, including the feeder body, auger, bottom mount, water bottle holder, and PCB brackets. The whitewood base provides a sturdy foundation for the system. Safety considerations, such as food-safe materials and sealed prints, ensure the feeder's reliability.
 
-### 7.2 Water Delivery System
+### 6.2 Water Delivery System
 
 The water delivery system utilizes a 16oz plastic jar, silicone tubing, and a peristaltic pump. The system's design allows for precise water dispensing, and the capacitive water level sensor ensures accurate monitoring.
 
-### 7.3 Food Dispensing Mechanism
+### 6.3 Food Dispensing Mechanism
 
 The food dispensing mechanism consists of a DC gearhead motor, auger, and PLA printed components. PWM control enables the motor to dispense predetermined amounts of kibble, providing controlled and scheduled feeding.
 
-### 7.4 Electronics Integration
+### 6.4 Electronics Integration
 
 The integration of various electronic components, including sensors (PIR, capacitive), actuators (motors, pump), and the microcontroller (TM4C123GXL), is crucial for the system's overall functionality. Careful integration ensures seamless communication and coordination among components.
 
-### 7.5 Safety Considerations
+### 6.5 Safety Considerations
 
 Safety measures include the use of food-safe materials, sealed 3D prints, and the prevention of potential choking hazards. Adherence to UTA safety rules and guidelines during implementation is emphasized to guarantee user and pet safety.
 
-### 7.6 User Interface and Control
+### 6.6 User Interface and Control
 
 The user interface relies on UART commands, providing a straightforward means for users to interact with the pet feeder. Commands cover various functionalities such as setting time, programming feeds, calibrating water volume, and toggling motion-activated refills.
 
-### 7.7 Power Management
+### 6.7 Power Management
 
 Efficient power management is achieved through the Hibernation Module, allowing the system to enter low-power states during idle periods. This enhances the pet feeder's autonomy while conserving energy.
 
-### 7.8 Conclusion on Design
+### 6.8 Conclusion on Design
 
 The design successfully integrates mechanical, electronic, and software components to create a functional pet feeder. Safety measures, precise dispensing mechanisms, and user-friendly interfaces contribute to the robustness and usability of the system.
 
 
-## 9. Conclusion
+## 7. Conclusion
 
 In conclusion, the embedded weekend pet feeder project demonstrates a comprehensive integration of hardware and software components to create a reliable and user-friendly solution for pet owners. The design considerations, safety measures, and advanced features contribute to a proof-of-principle system that showcases the capabilities of embedded systems in addressing practical needs. The project provides a foundation for further exploration and enhancements in automated pet care systems.
