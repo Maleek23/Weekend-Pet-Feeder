@@ -35,8 +35,7 @@ December 5, 2023**
    - 7.6 [User Interface and Control](#76-user-interface-and-control)
    - 7.7 [Power Management](#77-power-management)
    - 7.8 [Conclusion on Design](#78-conclusion-on-design)
-8. [Enhancements](#8-enhancements)
-9. [Conclusion](#9-conclusion)
+8. [Conclusion](#9-conclusion)
 
 ## 1. Introduction
 
@@ -197,9 +196,6 @@ Efficient power management is achieved through the Hibernation Module, allowing 
 
 The design successfully integrates mechanical, electronic, and software components to create a functional pet feeder. Safety measures, precise dispensing mechanisms, and user-friendly interfaces contribute to the robustness and usability of the system.
 
-## 8. Enhancements
-
-This section outlines potential enhancements or additional features that could be implemented to improve the pet feeder's functionality or user experience. It may include hardware upgrades, software optimizations, or additional safety features.
 
 ## 9. Conclusion
 
