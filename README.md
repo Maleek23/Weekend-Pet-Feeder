@@ -1,5 +1,4 @@
-![IMG_3412 (1)](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/00eb3b83-3369-4e7c-932f-0dd85c3a0a08)Embedded Systems for Weekend Pet Feeder by:
-
+Embedded Systems for Weekend Pet Feeder by:
 **Abdulmalik Ajisegiri  
 December 5, 2023**
 
@@ -44,7 +43,7 @@ December 5, 2023**
 This document introduces an embedded systems project featuring an automated weekend pet feeder. The system integrates advanced functionalities, including water level sensing, scheduled food/water dispensing, user configuration, and low resource alerts, providing a reliable solution for pet owners during weekends.
 
 ## 2. Hardware Architecture
-<img width="532" alt="Screenshot 2023-12-20 at 5 23 47 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/9be058f5-bf0d-4260-870b-c4b287cbcb25">
+<img width="379" alt="Screenshot 2023-12-20 at 5 23 47 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/9be058f5-bf0d-4260-870b-c4b287cbcb25">
 
 The hardware combines commercial off-the-shelf components with 3D printed parts, such as a water bottle, food container, pet dish, delivery tube, auger, base, capacitive sensor, motors, MOSFETs, microcontroller, and peripherals (e.g., PIR, transducer, EEPROM). Safety measures, including food-safe containers and sealed prints, are implemented, ensuring precise control of food and water resources.
 
