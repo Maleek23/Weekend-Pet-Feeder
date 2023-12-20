@@ -43,7 +43,7 @@ This document introduces an embedded systems project featuring an automated week
 
 ## 2. Hardware Architecture
 <img width="379" alt="Screenshot 2023-12-20 at 5 23 47 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/9be058f5-bf0d-4260-870b-c4b287cbcb25">
-<img width="300" alt="Screenshot 2023-12-20 at 5 29 57 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/0b2843fd-4f83-445f-9818-e02263ec58db">
+<img width="300" height="379" alt="Screenshot 2023-12-20 at 5 29 57 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/0b2843fd-4f83-445f-9818-e02263ec58db">
 
 
 
