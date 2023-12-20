@@ -1,4 +1,4 @@
-# Lab Report: Embedded Systems for Weekend Pet Feeder
+Embedded Systems for Weekend Pet Feeder
 **Abdulmalik Ajisegiri  
 December 5, 2023**
 
