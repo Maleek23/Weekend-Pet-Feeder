@@ -1,4 +1,6 @@
-Embedded Systems for Weekend Pet Feeder
+Embedded Systems for Weekend Pet Feeder by:
+
+
 **Abdulmalik Ajisegiri  
 December 5, 2023**
 
