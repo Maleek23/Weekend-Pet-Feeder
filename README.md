@@ -50,10 +50,14 @@ This document introduces an embedded systems project featuring an automated week
 The hardware combines commercial off-the-shelf components with 3D printed parts, such as a water bottle, food container, pet dish, delivery tube, auger, base, capacitive sensor, motors, MOSFETs, microcontroller, and peripherals (e.g., PIR, transducer, EEPROM). Safety measures, including food-safe containers and sealed prints, are implemented, ensuring precise control of food and water resources.
 
 ## 3. Software Capabilities
+<img width="379" alt="Screenshot 2023-12-20 at 5 21 25 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/f095dffd-3cc1-47a0-9e2a-ec2c835660bc">
+
 
 The software demonstrates sophisticated features, including:
 - **Water Level Detection:** Utilizes a capacitive sensor circuit interfaced to an analog comparator and timer modules for real-time water volume measurement.
-<img width="379" alt="Screenshot 2023-12-20 at 5 21 25 PM" src="https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/f095dffd-3cc1-47a0-9e2a-ec2c835660bc">
+
+
+![8a1c7f](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/3fdba1b9-d068-4851-86a1-3ae31586bfd9)  
 - **Scheduled Feeding:** The TM4C123 MCU allows pre-programming and storing feed amounts and times in EEPROM to dispense food per a defined schedule.
 - **User Interface:** A UART peripheral enables user configuration via commands for setting the current time, programming feeds, calibrating water volume, toggling motion-activated refills, and low resource alerts.
 - **Input Validation:** Ensures user-supplied data is parsed into fields for validity before execution.
