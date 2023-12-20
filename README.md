@@ -50,8 +50,7 @@ This document introduces an embedded systems project featuring an automated week
 The hardware combines commercial off-the-shelf components with 3D printed parts, such as a water bottle, food container, pet dish, delivery tube, auger, base, capacitive sensor, motors, MOSFETs, microcontroller, and peripherals (e.g., PIR, transducer, EEPROM). Safety measures, including food-safe containers and sealed prints, are implemented, ensuring precise control of food and water resources.
 
 ## 3. Software Capabilities
-![IMG_3412](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/79d10ffe-5c12-4c07-9488-20b2fe512b3b)
-
+![IMG_3412](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/7a4f811e-931c-4194-b51e-ccf183606a2b)
 The software demonstrates sophisticated features, including:
 
 - **Water Level Detection:** Utilizes a capacitive sensor circuit interfaced to an analog comparator and timer modules for real-time water volume measurement.
