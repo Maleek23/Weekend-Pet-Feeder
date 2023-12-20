@@ -1,6 +1,4 @@
-![8a1c7f](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/010e0551-b326-4020-9594-3afce4c1ac87)
 Embedded Systems for Weekend Pet Feeder by:
-
 
 **Abdulmalik Ajisegiri  
 December 5, 2023**
@@ -55,6 +53,7 @@ The hardware combines commercial off-the-shelf components with 3D printed parts,
 The software demonstrates sophisticated features, including:
 - **Water Level Detection:** Utilizes a capacitive sensor circuit interfaced to an analog comparator and timer modules for real-time water volume measurement.
 -![8a1c7f](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/aad82d98-a5d5-4e2e-b231-ad9eca5d8e96)
+-
 - **Scheduled Feeding:** The TM4C123 MCU allows pre-programming and storing feed amounts and times in EEPROM to dispense food per a defined schedule.
 - **User Interface:** A UART peripheral enables user configuration via commands for setting the current time, programming feeds, calibrating water volume, toggling motion-activated refills, and low resource alerts.
 - **Input Validation:** Ensures user-supplied data is parsed into fields for validity before execution.
