@@ -53,7 +53,7 @@ The hardware combines commercial off-the-shelf components with 3D printed parts,
 ![IMG_3412](https://github.com/Maleek23/Weekend-Pet-Feeder/assets/97371652/7a4f811e-931c-4194-b51e-ccf183606a2b)
 The software demonstrates sophisticated features, including:
 - **Water Level Detection:** Utilizes a capacitive sensor circuit interfaced to an analog comparator and timer modules for real-time water volume measurement.
-- ![Uploading 8a1c7f.gif…]()
+-![Uploading 8a1c7f.gif…]()
 - **Scheduled Feeding:** The TM4C123 MCU allows pre-programming and storing feed amounts and times in EEPROM to dispense food per a defined schedule.
 - **User Interface:** A UART peripheral enables user configuration via commands for setting the current time, programming feeds, calibrating water volume, toggling motion-activated refills, and low resource alerts.
 - **Input Validation:** Ensures user-supplied data is parsed into fields for validity before execution.
